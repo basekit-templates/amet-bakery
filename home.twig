@@ -22,9 +22,9 @@
         </section>
 
     <div class="zone-area clearfix">
-        
         <div class="main wrapper clearfix">
-            {{zone('main')|raw}}
+            {{widget('menusections', 'tabletmenusections', {})|raw}}
+            {{widget('menu', 'tabletmenu', {})|raw}}
         </div>  <!-- end main -->
     </div><!-- end desktop-right-column -->
 
