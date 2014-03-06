@@ -123,6 +123,14 @@ body {
     .logo {
       text-align: center;
       float: none;
+      img {
+        @media only screen and (max-width: 960px) {
+            width:90%;
+        }
+        @media @tablet {
+            width: auto;
+        }
+      }
     }
     @media @tablet {
         background: @color-swatch1;
