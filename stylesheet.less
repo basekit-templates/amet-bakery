@@ -471,12 +471,11 @@ body {
                 margin: 0;
                 padding: 4em 0 2em;
                 text-align: left;
-                border-bottom: 1px solid fade(@color-swatch6,10%);
+                border-bottom: 1px dotted fade(@color-swatch6,15%);
                 @media @tablet {
                     padding: 2em 0 0.5em;
                 }
             } /* end MENU-HEADER AND SUB-SECTION HEADER */
-
 
             /* ITEMS */
 
@@ -628,7 +627,7 @@ body {
                     margin: 0;
                 }
                 .menu-subsection .menu-subsection-promoted { /* PROMOTED SUB-SECTION */ 
-                    border: 1px dotted @color-swatch5;
+                    border: 1px dotted fade(@color-swatch6,10%);
                     background-color: darken(@color-swatch1,2%);
                     padding: 0 2em 2em;
                     margin: 2em 0 1em;
@@ -638,7 +637,7 @@ body {
                     }
                     .menu-subsection-header {
                         margin: 20px 0;
-                        padding: 2em 0 0.2em;
+                        padding: 2em 0;
                         @media @mobile {
                             padding: 0;
                         }
