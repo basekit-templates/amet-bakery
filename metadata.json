@@ -3,6 +3,7 @@
 	"thumbnail":"amet-bakery.png",
 	"screenshot":"amet-bakery.png",
 	"templateType":"menu",
+   "pageTypes": ["home"],
     "tags": {
     "en": ["clean", "menu", "cafe", "bar", "restaurant"],
     "es": ["limpio", "menú", "cafetería", "bar", "restaurante"],
